@@ -1,7 +1,8 @@
 * {
-  margin: 0;
+  margin: 0 0  -10px;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -19,3 +20,7 @@ button,
 textarea {
   font: 400 1.8rem/1 "Nunito", sans-serif;
 }
+
+/*img-index {
+  align-items: center;
+}*/
