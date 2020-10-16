@@ -90,10 +90,10 @@ main h1 {
   main h1 {
     font-weight: bold;
     line-height: 0.88;
+    /*Ajuste na pagina principal *dimensões*/
+    margin: clamp(4%, 9vh, 12%) 0 4rem;
 
-    margin: clamp(10%, 9vh, 12%) 0 4rem;
-
-    width: min(300px, 80%);
+    width: min(400px, 80%);
   }
 
   .visit {
