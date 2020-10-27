@@ -44,11 +44,21 @@
 
         <footer>
           <strong> Rio do Sul</strong>
-          <p>Santa Catarina</p>
-        </footer>
+            <p>Santa Catarina</p>
+            </footer>
       </aside>
 
       <div id="mapid" class="animate-appear"></div>
+
+  {{#each orphanages}}
+
+      <span hidden
+        data-id="{{this.id}}"
+        data-name="{{this.name}}"
+        data-lat="{{this.lat}}"
+        data-lng="{{this.lng}}"
+      ></span> 
+      {{/each}}
 
       <a href="/create-orphanages" class="create-orphanages" title="Cadastre um orfanato">
         <img src="/images/plus.svg" alt="Criar orfanato">
