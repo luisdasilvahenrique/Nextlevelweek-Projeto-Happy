@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/luisdasilvahenrique/nextlevelweek-3-Edi-o-Projeto-Happy#readme",
   "dependencies": {
+    "eslint-config-johnanon": "^1.0.2",
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "nodemon": "^2.0.6",
