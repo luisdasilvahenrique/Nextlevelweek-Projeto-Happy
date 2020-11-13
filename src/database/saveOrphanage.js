@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function saveOrphanage(db, orphanage) {
   return db.run(`
   INSERT INTO orphanages (
@@ -26,7 +25,7 @@ function saveOrphanage(db, orphanage) {
 }
 
 module.exports = saveOrphanage;
-=======
+
 function saveOrphanage(db, orphanage) {
   return db.run(`
   INSERT INTO orphanages (
@@ -54,4 +53,4 @@ function saveOrphanage(db, orphanage) {
 }
 
 module.exports = saveOrphanage;
->>>>>>> 4ef4fcfc6151fdff910f21c51fdc73ad4e498bfa
+
